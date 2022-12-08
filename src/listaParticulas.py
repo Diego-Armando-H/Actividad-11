@@ -80,7 +80,7 @@ class listaParticula:
             """ utilizamos una distancia considerablemente grande para forzar que el punto
              de comparación siempre tenga una distancia inferior al inicio, despues se obtendrá
              el punto verdaderamente más cercano"""
-            minimo = 1000
+            minimo = 10000
             cercano = (0, 0)
             color = (punto_i.red,
                      punto_i.green,
